@@ -202,7 +202,7 @@ import org.apache.commons.jxpath.util.KeyManagerUtils;
  * <p>
  * JXPath can be used to create new objects. First, create a subclass of {@link AbstractFactory AbstractFactory} and
  * install it on the JXPathContext. Then call {@link JXPathContext#createPath createPathAndSetValue()} instead of "setValue". JXPathContext will invoke your
- * AbstractFactory when it discovers that an intermediate node of the path is <strong>null</strong>. It will not override existing nodes.
+ * AbstractFactory when it discovers that an intermediate node of the path is {@code null}. It will not override existing nodes.
  * </p>
  *
  * <pre>
